@@ -40,3 +40,51 @@
 .read-the-docs {
   color: #888;
 }
+
+.login{
+  font-size: 30px;
+  margin-top: 80px;
+  /* margin-bottom: 10px; */
+  padding-top: 40px;
+  /* text-align: center; */
+}
+.auth-inner{
+  margin-left: 400px;
+  margin-right: 400px;
+    /* width: 400px; */
+    text-align: center;
+    background-color: rgb(165, 195, 199);
+    padding: 10px;
+    border-radius: 5px;
+}
+.mb-3{
+  padding: 10px;
+  font-size: large;
+  /* margin-top: 40px; */
+  /* margin-left: 500px; */
+}
+
+.credential_class{
+  padding: 10px;
+}
+
+.btn-primary{
+  font-size: large;
+  padding: 8px;
+  margin-top: 20px;
+  background-color: rgb(69, 78, 87);
+  border-radius: 10px;
+}
+.btn-primary:hover {
+  filter: drop-shadow(0 0 2em #26f849aa);
+}
+.forgot-password{
+  margin-top: 80px;
+  padding: 10px;
+}
+.form-control{
+  padding: 5px;
+}
+.profile_details{
+  font-size: 20px;
+}

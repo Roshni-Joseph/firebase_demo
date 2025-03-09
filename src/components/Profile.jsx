@@ -42,10 +42,10 @@ function Profile() {
               style={{ borderRadius: "50%" }}
             />
           </div>
-          <h3>Welcome {userDetails.firstName}</h3>
+          <h1 className="profile_details">WELCOME {userDetails.firstName}</h1>
           <div>
-            <p>Email: {userDetails.email}</p>
-            <p>First Name: {userDetails.firstName}</p>
+            <p className="profile_details">Email: {userDetails.email}</p>
+            <p className="profile_details">First Name: {userDetails.firstName}</p>
             {/* <p>Last Name: {userDetails.lastName}</p> */}
           </div>
           <button className="btn btn-primary" onClick={handleLogout}>

@@ -28,10 +28,10 @@ function Login() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h3>Login</h3>
+      <h3 className="login">Login</h3>
 
       <div className="mb-3">
-        <label>Email address</label>
+        <label className="credential_class">Email address</label>
         <input
           type="email"
           className="form-control"
@@ -42,7 +42,7 @@ function Login() {
       </div>
 
       <div className="mb-3">
-        <label>Password</label>
+        <label className="credential_class">Password</label>
         <input
           type="password"
           className="form-control"

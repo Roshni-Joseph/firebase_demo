@@ -38,10 +38,10 @@ function Register() {
 
   return (
     <form onSubmit={handleRegister}>
-      <h3>Sign Up</h3>
+      <h3 className="login">Sign Up</h3>
 
       <div className="mb-3">
-        <label>First name</label>
+        <label className="credential_class">First name</label>
         <input
           type="text"
           className="form-control"
@@ -52,7 +52,7 @@ function Register() {
       </div>
 
       <div className="mb-3">
-        <label>Last name</label>
+        <label className="credential_class">Last name</label>
         <input
           type="text"
           className="form-control"
@@ -62,7 +62,7 @@ function Register() {
       </div>
 
       <div className="mb-3">
-        <label>Email address</label>
+        <label className="credential_class">Email address</label>
         <input
           type="email"
           className="form-control"
@@ -73,7 +73,7 @@ function Register() {
       </div>
 
       <div className="mb-3">
-        <label>Password</label>
+        <label className="credential_class">Password</label>
         <input
           type="password"
           className="form-control"
